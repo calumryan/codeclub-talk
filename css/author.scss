@@ -1,0 +1,66 @@
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  border: 0;
+}
+
+.corner {
+	position: fixed;
+	z-index: 1000;
+	bottom: 0;
+	right: 0;
+	background:#333;
+	padding: 1rem;
+	border-radius: 0.5rem 0 0 0;
+}
+
+.reveal {
+	h1, h2, h3, h4, h5, h6 {
+		font-family: "Trebuchet MS","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Tahoma,sans-serif;
+		text-transform: none;
+
+		a {
+			text-transform: none;
+			color: #FFF;
+			padding: 0.2em;
+			background:#333;
+			line-height: 2em;
+		}
+	}
+
+	p, li {
+		font-family: Arial,"Helvetica Neue",Helvetica,sans-serif
+	}
+
+	section {
+		img {
+			border:0;
+			box-shadow:none;
+			background:none;
+		}
+	}
+
+	hr {
+		border-top: 1px solid #CCC;
+		border-bottom: 0;
+		border-left: 0;
+		border-right: 0;
+		height: 1px;
+	}
+}
+
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+.codeclub {
+	border: 0;
+	width: 30%;
+	height: auto;
+}
