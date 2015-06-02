@@ -54,6 +54,36 @@
 	}
 }
 
+ul.list {
+	padding-left: 0;
+	margin-left: 40px;
+	li {
+		font-size:0.5em;
+		margin-bottom: 0.2em;
+		list-style-type: square;
+	}
+}
+
+.caption {
+	
+	.decor {
+		width: 3.8em;
+		height: 0.2em;
+		background-color:#444;
+		margin: 1em 0 0.4em 0;
+	}
+
+	h3 {
+		font-size: 0.6em;
+		float: left;
+	}
+	
+	clear: both;
+	display: table;
+	margin: auto;
+	
+	width: 100%;
+}
 
 .uppercase {
 	text-transform: uppercase;
